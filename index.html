@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedn Mendoza Matias</title>
+    <link rel="icon" href="./images/home.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@400;600;800&family=Roboto+Serif:opsz,wght@8..144,400;8..144,500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Navegacion-->
+    <nav class="navegacion">
+        <div class="nav-logo">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Logo linkedn"></a>
+
+            <div class="buscador">
+                <img src="images/search.png" alt="Buscador">
+                <input type="text" placeholder="Buscar">
+            </div>
+
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#" class="activar-link">
+                        <img src="images/home.png" alt="Logo Inicio">
+                        <span class="nav-span">Inicio</span>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <img src="images/network.png" alt="Logo Mi red trabajo">
+                        <span class="nav-span">Mi red</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/jobs.png" alt="Logo Empleos">
+                        <span class="nav-span">Empleos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/message.png" alt="Logo Mensajes">
+                        <span class="nav-span">Mensajes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/notification.png" alt="Logo Notificaciones">
+                        <span class="nav-span">Notificaciones</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-perfil">
+            <div class="conectado">
+                <img src="images/Foto.jpg" alt="Foto de perfil" class="foto-perfil" id="foto-perfil">
+            </div>
+        </div>
+        <!--Perfil-->
+        <div class="menu-perfil-wrap " id="menuWrap">
+            <div class="perfil-menu">
+                <div class="informacion-usuario">
+                    <img src="images/Foto.jpg" alt="Foto personal">
+                </div>
+                <h3>Mendoza Matias</h3>
+                <a href="./views/perfil.html">Ver tu perfil</a>
+                <hr>
+                <a href="#" class="perfil-menu-link">
+                    <img src="images/feedback.png" alt="Icono opionio">
+                    <p>Dar opinion</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="perfil-menu-link">
+                    <img src="images/setting.png" alt="Icono opciones">
+                    <p>Opciones y Privacidad</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="perfil-menu-link">
+                    <img src="images/help.png" alt="Icono ayuda">
+                    <p>Ayuda y soporte</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="perfil-menu-link">
+                    <img src="images/display.png" alt="Icono acceso ">
+                    <p>Visualizacion y Acceso</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="perfil-menu-link">
+                    <img src="images/logout.png" alt="Icono cerrar sesion ">
+                    <p>Cerrar Sesion</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!--Fin navegacion-->
+    <!--Contenido-->
+    <main>
+        <section class="contenido-principal">
+            <!--Contenido izquierdo-->
+
+            <div class="sidebar-izquierdo">
+                <div class="position-sticky">
+                    <!--Efecto scroll-->
+                    <div class="sidebar-perfil">
+                        <img src="./images/portada-perfil.jpeg" width="100%">
+                        <div class="sidebar-perfil-info">
+                            <img src="images/Foto.jpg">
+                            <h1>Matias Mendoza</h1>
+                            <h3>🚀Full Stack developer Backend Java Jr 🚀Estudiante de la Tecnicatura en
+                                programación |
+                                Spring boot | Node.js | Mongodb | SQL | HTML CSS | Javascript | Git</h3>
+                            <ul class="perfil-items">
+                                <li>Visualizaciones al perfil<span>400</span></li>
+                                <li>Impresiones de tu publicación<span>800</span></li>
+                                <li>Aparaciciones en busquedas<span>80</span></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-perfil-link">
+                            <a href="#"><img src="images/items.png" alt=""> My Items</a>
+                            <a href="#"><img src="images/premium.png" alt=""> Try Premium</a>
+                        </div>
+                    </div>
+                    <!--Seccion izquierda-->
+                    <div class="sidebar-actividad">
+                        <h3>Reciente</h3>
+                        <a href="#"><img src="/images/recent.png">Jr Backend Java</a>
+                        <a href="#"><img src="/images/recent.png">Desarrollador Full Stack</a>
+                        <a href="#"><img src="/images/recent.png">Jr Java Spring</a>
+                        <a href="#"><img src="/images/recent.png">Html Css</a>
+                        <a href="#"><img src="/images/recent.png">Backend Developer</a>
+                        <h3>Grupos</h3>
+                        <a href="#"><img src="/images/recent.png">Comunidad IT</a>
+                        <a href="#"><img src="/images/recent.png">Sin Jr no hay Sr</a>
+                        <a href="#"><img src="/images/recent.png">Programadores Argentina</a>
+                        <a href="#"><img src="/images/recent.png">Empleos IT</a>
+                        <a href="#"><img src="/images/recent.png">Perfil IT - Pescar</a>
+                        <h3>Hashtag</h3>
+                        <a href="#"><img src="/images/recent.png">Backend</a>
+                        <a href="#"><img src="/images/recent.png">Programación</a>
+                        <a href="#"><img src="/images/recent.png">Java</a>
+                        <div class="descubrir-mas">
+                            <a href="#">Descubir mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Seccion central-->
+            <div class="publicaciones">
+                <div class="crear-publicacion">
+                    <div class="campo-crear">
+                        <img src="images/Foto.jpg" alt="Imagen personal">
+                        <textarea rows="2" placeholder="Crear publicación"></textarea>
+                    </div>
+                    <div class="crear-publicacion-links">
+                        <li><img src="images/photo.png" alt="Logo camara">Foto</li>
+                        <li><img src="images/video.png" alt="Logo video">Video</li>
+                        <li><img src="images/event.png" alt="Logo evento">Evento</li>
+                        <li class="btn-blue">Publicar</li>
+                    </div>
+                </div>
+                <div class="ordenar">
+                    <hr>
+                    <p>Ordenar por: <span>Principal<img src="./images/down-arrow.png"
+                                alt="Imagen flecha ordenar"></span></p>
+                </div>
+                <!--Publicaion 1-->
+                <div class="publicacion">
+                    <div class="publicacion-autor">
+                        <img src="images/Foto.jpg" alt="Imagen personal">
+                        <div>
+                            <h1>Mendoza Matias</h1>
+                            <small>Programador Full Stack Java</small>
+                            <small>2 horas</small>
+                        </div>
+                    </div>
+                    <p>! Hola red!
+                        Quiero contarles el excelente día que tuve ayer en Santander exponiendo la página web que
+                        desarrolle junto a Nicolás Ruiz y Soledad Benítez Argaña llamada "We".
+                        La verdad que estoy muy contento y agradecido con Fundación Pescar por haber hecho realidad todo
+                        esto , jamás pensé que iba a estar hablando frente a tantas personas y mostrando lo que me
+                        encanta hacer #programar. También quiero agradecerle a mi coordinadora María Bereterbide por
+                        apoyarme siempre e impulsarme a mejorar día a día con cada consejo.
+                        La emoción que tengo es muy grande, sinceramente este fue un hermoso #2022.
+                        Muchas gracias.</p>
+                    <div class="imagen-publicacion img-uno"></div>
+                    <div class="acciones-publicacion">
+                        <div>
+                            <img src="images/thumbsup.png" alt="">
+                            <img src="images/love.png" alt="">
+                            <img src="images/clap.png" alt="">
+                            <span class="impresiones">IBM y 100 personas mas</span>
+                        </div>
+                        <div>
+                            <span>50 comentarios . 80 veces compartido</span>
+                        </div>
+                    </div>
+                    <div class="publicacion-actividad">
+                        <div>
+                            <img class="img-actividad" src="images/like.png" alt="Icono recomendar">
+                            <span>Recomendar</span>
+                        </div>
+                        <div>
+                            <img class="img-actividad" src="images/comment.png" alt="Icono comentar">
+                            <span>Comentar</span>
+                        </div>
+                        <div>
+                            <img class="img-actividad" src="images/share.png" alt="Icono compartir">
+                            <span>Compartir</span>
+                        </div>
+                        <div>
+                            <img class="img-actividad" src="images/send.png" alt="Icono enviar">
+                            <span>Enviar</span>
+                        </div>
+                    </div>
+                </div>
+                <!--Fin publicacion 1-->
+                <!--Publicacion 2-->
+                <div class="publicacion">
+                    <div class="publicacion-autor">
+                        <img src="images/Foto.jpg" alt="Imagen personal">
+                        <div>
+                            <h1>Mendoza Matias</h1>
+                            <small>Programador Full Stack Java</small>
+                            <small>2 horas</small>
+                        </div>
+                    </div>
+                    <p>Pagina web realizada con HTML y Css <br><a
+                            href="https://tech-nryr8z145-mendoza-matias.vercel.app/">Ver proyecto</a></p>
+                    <div class="imagen-publicacion img-dos"></div>
+                    <div class="acciones-publicacion">
+                        <div>
+                            <img src="images/thumbsup.png" alt="">
+                            <img src="images/love.png" alt="">
+                            <img src="images/clap.png" alt="">
+                            <span class="impresiones">SantanderTec y 350 personas mas</span>
+                        </div>
+                        <div>
+                            <span>20 comentarios . 15 veces compartido</span>
+                        </div>
+                    </div>
+                    <div class="publicacion-actividad">
+                        <div>
+                            <img class="img-actividad" src="images/like.png" alt="Icono recomendar">
+                            <span>Recomendar</span>
+                        </div>
+                        <div>
+                            <img class="img-actividad" src="images/comment.png" alt="Icono comentar">
+                            <span>Comentar</span>
+                        </div>
+                        <div>
+                            <img class="img-actividad" src="images/share.png" alt="Icono compartir">
+                            <span>Compartir</span>
+                        </div>
+                        <div>
+                            <img class="img-actividad" src="images/send.png" alt="Icono enviar">
+                            <span>Enviar</span>
+                        </div>
+                    </div>
+                </div>
+                <!--Fin publicaion 2-->
+                <!--Publicacion 3 -->
+                <div class="publicacion">
+                    <div class="publicacion-autor">
+                        <img src="images/Foto.jpg" alt="Imagen personal">
+                        <div>
+                            <h1>Mendoza Matias</h1>
+                            <small>Programador Full Stack Java</small>
+                            <small>2 horas</small>
+                        </div>
+                    </div>
+                    <p>Pagina web realizada con HTML y Css <a href="">Ver proyecto</a></p>
+                    <div class="imagen-publicacion img-tres"></div>
+                    <div class="acciones-publicacion">
+                        <div>
+                            <img src="images/thumbsup.png" alt="">
+                            <img src="images/love.png" alt="">
+                            <img src="images/clap.png" alt="">
+                            <span class="impresiones">Accenture y 150 personas mas</span>
+                        </div>
+                        <div>
+                            <span>10 comentarios . 60 veces compartido</span>
+                        </div>
+                    </div>
+                    <div class="publicacion-actividad">
+                        <div>
+                            <img class="img-actividad" src="images/like.png" alt="Icono recomendar">
+                            <span>Recomendar</span>
+                        </div>
+                        <div>
+                            <img class="img-actividad" src="images/comment.png" alt="Icono comentar">
+                            <span>Comentar</span>
+                        </div>
+                        <div>
+                            <img class="img-actividad" src="images/share.png" alt="Icono compartir">
+                            <span>Compartir</span>
+                        </div>
+                        <div>
+                            <img class="img-actividad" src="images/send.png" alt="Icono enviar">
+                            <span>Enviar</span>
+                        </div>
+                    </div>
+                </div>
+                <!--Fin publicacion 3-->
+                <!--Pulicacion 4 -->
+                <div class="publicacion">
+                    <div class="publicacion-autor">
+                        <img src="images/Foto.jpg" alt="Imagen personal">
+                        <div>
+                            <h1>Mendoza Matias</h1>
+                            <small>Programador Full Stack Java</small>
+                            <small>2 horas</small>
+                        </div>
+                    </div>
+                    <p>Buenas noches
+                        Continuamos creciendo en esto que tanto me encanta, aprendiendo día a día cosas nuevas en busca
+                        de la primera oportunidad laboral.
+                        Próximo crud utilizando #mysql, #nodejs, #sequelize, #express.
+                        Pensar que antes no sabía como conectar una base de datos o hacer consultas y hoy en día hacemos
+                        mejores proyectos.
+                        Le doy gracias a todas esas personas que creen en mí y me apoyan día a día en mi crecimiento.
+                        -
+                        -
+                        #programacion #backend #basededatos <br><a
+                            href="https://github.com/Mendoza-Matias/Listador_Notas">Ver proyecto</a></p>
+                    <div class="imagen-publicacion img-cuatro"></div>
+                    <div class="acciones-publicacion">
+                        <div>
+                            <img src="images/thumbsup.png" alt="">
+                            <img src="images/love.png" alt="">
+                            <img src="images/clap.png" alt="">
+                            <span class="impresiones">Santander y 500 personas mas</span>
+                        </div>
+                        <div>
+                            <span>100 comentarios . 300 veces compartido</span>
+                        </div>
+                    </div>
+                    <div class="publicacion-actividad">
+                        <div>
+                            <img class="img-actividad" src="images/like.png" alt="Icono recomendar">
+                            <span>Recomendar</span>
+                        </div>
+                        <div>
+                            <img class="img-actividad" src="images/comment.png" alt="Icono comentar">
+                            <span>Comentar</span>
+                        </div>
+                        <div>
+                            <img class="img-actividad" src="images/share.png" alt="Icono compartir">
+                            <span>Compartir</span>
+                        </div>
+                        <div>
+                            <img class="img-actividad" src="images/send.png" alt="Icono enviar">
+                            <span>Enviar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Contenido Derecho-->
+            <div class="sidebar-derecho">
+                <div class="position-sticky">
+                    <!--Efecto scroll-->
+                    <div class="nuevas-publicaciones">
+                        <img src="images/more.png" class="info-icono" alt="icono de nueva información">
+                        <h3>Noticias Actuales</h3>
+
+                        <a href="#">Obtendre mi primer empleo</a>
+                        <span>1 Ene 2023 , 10,934 lectores</span>
+
+                        <a href="#">Podre seguir creciendo en programación</a>
+                        <span>22 Mar 2023 , 10,934 lectores</span>
+
+                        <a href="#">No me detendre hasta alcanzar mi objetivo</a>
+                        <span>19 Jul 2023 , 10,934 lectores</span>
+
+                        <a href="#" class="leer-mas">Leer Mas</a>
+                    </div>
+
+                    <div class="sidebar-noticias">
+                        <small>Anuncio</small>
+                        <p>Busco trabajo como desarrollador Backend</p>
+                        <div>
+                            <img src="images/Foto.jpg" alt="Foto personal">
+                            <img src="./images/java.png" alt="Logo Java">
+                        </div>
+                        <b>Java developer Jr</b>
+                        <a href="#" class="noticia-link">Descargar cv</a>
+                    </div>
+                    <div class="links-utiles">
+                        <a href="#">Acerda de</a>
+                        <a href="#">Accesibilidad</a>
+                        <a href="#">Centro de ayuda</a>
+                        <a href="#">Privacidad y condiciones</a>
+                        <a href="#">Servicios empresariales</a>
+                        <a href="./docs/cv.pdf" download="curriculum-Mendoza-Matias"> Descargar mi cv</a>
+
+                        <div class="copyright">
+                            <img src="images/logo.png" alt="Logo linkedn">
+                            <p>Diseñado por Matias Mendoza 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
